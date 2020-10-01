@@ -73,7 +73,7 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    background-color: rgb(230, 230, 230,0.4);
+    background-color: rgb(230, 230, 230,0.5);
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
@@ -137,7 +137,6 @@ hr.small {
     transform: translate3d(0, 100%, 0);
   }
 }
-
 
 .overlay {
   background: rgba(0, 0, 0, 0.0);
@@ -233,11 +232,6 @@ text-decoration: none;
 
 @media only screen and (min-width: 1200px) {
   .container-90 {
-    width:90%;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .container-901 {
     width:90%;
   }
 }
@@ -338,8 +332,8 @@ footer .copyright {
   margin: 0;
   font-size: 0.85em;
   line-height: 1.764705882em;
-  vertical-align: middle;
-  vertical-align: baseline;
+  
+  
   opacity: 0;
   -webkit-transition: top 0.3s ease,opacity 0.3s ease;
   -o-transition: top 0.3s ease,opacity 0.3s ease;
@@ -435,7 +429,4 @@ img::selection {
 img::-moz-selection {
   color: white;
   background: transparent;
-}
-body {
-  webkit-tap-highlight-color: #0085a1;
 }
