@@ -109,8 +109,7 @@ function ssc_wheel(e) {
     if (Math.abs(i) > 1.2) {
         i *= ssc_stepsize / 120
     }
-    ssc_scrollArray(n, -r, -i);
-    e.preventDefault()
+   
 }
 
 function ssc_keydown(e) {
