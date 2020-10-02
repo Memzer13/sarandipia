@@ -72,7 +72,7 @@ hr.small {
   letter-spacing: 1px;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 768px) {
   .navbar-custom {
     background-color: rgb(230, 230, 230,0.4);
     border-bottom: 1px solid transparent;
@@ -94,7 +94,7 @@ hr.small {
     color: rgba(255, 255, 255, 0.4);
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 768px) {
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
     -o-transition: background-color 0.3s;
@@ -159,7 +159,7 @@ hr.small {
   padding: 100px 0 180px;
   color: white;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
@@ -193,7 +193,7 @@ border-bottom:0px solid #ccc;
 text-decoration: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 5em;
@@ -231,7 +231,7 @@ text-decoration: none;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   .container-90 {
     width:90%;
   }
