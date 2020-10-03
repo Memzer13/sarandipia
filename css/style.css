@@ -61,6 +61,12 @@ hr.small {
   z-index: 3;
   font-family: Roboto, sans-serif;
 }
+
+img {
+  max-width: 30%;
+  height: auto;
+  padding-top: 15px;
+}
 .navbar-custom .navbar-brand {
   font-weight: 700;
   font-size: 18px;
