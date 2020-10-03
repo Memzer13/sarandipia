@@ -4077,7 +4077,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 800px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -4092,7 +4092,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     visibility: visible !important;
   }
   .navbar-collapse.in {
-    overflow-y: none;
+    overflow-y: visible;
   }
   .navbar-fixed-top .navbar-collapse,
   .navbar-static-top .navbar-collapse,
