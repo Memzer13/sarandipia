@@ -73,7 +73,7 @@ hr.small {
   letter-spacing: 1px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 780px) {
   .navbar-custom {
     background-color: rgb(99, 99, 99,0.3);
     border-bottom: 1px solid transparent;
@@ -160,7 +160,7 @@ hr.small {
   padding: 100px 0 180px;
   color: white;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 780px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
@@ -194,7 +194,7 @@ border-bottom:0px solid #ccc;
 text-decoration: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 780px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 5em;
@@ -223,7 +223,7 @@ text-decoration: none;
 .intro-header .post-heading .meta a {
   color: white;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 780px) {
   .intro-header .post-heading h1 {
     font-size: 55px;
   }
