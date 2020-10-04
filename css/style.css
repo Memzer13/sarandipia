@@ -20,7 +20,7 @@ h3 {
 }
 
 .grow { 
-  transition: all .4s ease-in-out; 
+  transition: all .5s ease-in-out; 
   }
   
   .grow:hover { 
@@ -47,7 +47,7 @@ a:focus {
 a img:hover,
 a img:focus {
   cursor: -webkit-zoom-in;
-  cursor: zoom-in;
+  cursor: pointer;
 }
 blockquote {
   color: #808080;
