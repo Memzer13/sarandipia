@@ -1567,6 +1567,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  display: grid;
 }
 @media (min-width: 768px) {
   .container {
@@ -3937,7 +3938,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-tabs.nav-justified > .dropdown .dropdown-menu {
   top: auto;
-  left: auto;
+  right: auto;
 }
 @media (min-width: 785px) {
   .nav-tabs.nav-justified > li {
