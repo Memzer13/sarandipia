@@ -13,6 +13,15 @@ html {
 body {
   margin: 0;
 }
+
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.02); 
+  }
+
 article,
 aside,
 details,
